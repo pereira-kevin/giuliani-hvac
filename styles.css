@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+* {
+  font-family: "aldrich", sans-serif;
+}
+
+.btn {
+  background-color: #3a619a;
+}
+
+.btn:hover {
+  background-color: #cf3131;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar img {
+  width: 200px;
+  height: 60px;
+}
+
+.nav-link-custom {
+  font-size: 1.4rem;
+  color: #3a619a;
+  font-weight: bold;
+}
+
+.nav-number {
+  font-size: 1.4rem;
+  color: #cf3131;
+  font-weight: bolder;
+}
+
+header a:hover {
+  color: #9f9f9f;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hero */
+
+.hero-bgimage {
+  height: 90vh;
+  background: url("./images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-top: 85px;
+}
+
+.hero-bgimage h1 {
+  font-size: 3.2rem;
+  color: white;
+  text-shadow: 2px 2px #333;
+  margin-top: 5%;
+  width: 60rem;
+}
+
+.hero-bgimage h3 {
+  font-size: 2.7rem;
+  color: #cf3131;
+  text-shadow: 2px 2px #333;
+  margin-top: 18%;
+  width: 40rem;
+}
+
+/* About */
+
+.about-section h3 {
+  color: #cf3131;
+}
+
+.about-section strong {
+  color: #3a619a;
+}
+
+.about-section .btn {
+  background-color: #3a619a;
+}
+
+/* Services */
+
+.services-bgimage {
+  height: 100%;
+  background: #3a619a;
+}
+
+/* .services-cards {
+  margin-top: 6.5%;
+  margin-bottom: 6.5%;
+} */
+
+.card-body h4 {
+  color: #cf3131;
+  font-size: 1.5rem;
+}
+
+/* .services-section button {
+  background-color: #3a619a;
+  color: white;
+} */
+
+.card-body li {
+  font-size: 1.2rem;
+}
+
+/* Contact */
+
+.contact-header-text {
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact-card-section {
+  background: #cf3131;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-card {
+  background-color: #000000;
+}
+
+.contact-card p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #cf3131;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+footer h4 {
+  color: #cf3131;
+}
+
+.footer-logo {
+  height: 120px;
+  width: 125px;
+}
+
+footer a {
+  color: #3a619a;
+  text-decoration: none;
+}
+
+footer ul {
+  margin-right: 1.5rem;
+}
+
+footer li {
+  font-weight: bold;
+  list-style: none;
+}
+
+.footer-bottom {
+  background-color: #9f9f9f;
+  color: white;
+}
+
+footer a:hover {
+  color: #9f9f9f;
+}
